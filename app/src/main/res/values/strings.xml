@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">Telegram_Stickers</string>
+    <string name="downloadstickers">دریافت استیکر</string>
+    <string name="next">بعدی</string>
+    <string name="previous">قبلی</string>
+
+    <string name="stickerName">Elephant</string>
+    <string name="gotocategories">منوی اصلی</string>
+
+    <string name="sticker">استیکرها</string>
+    <string name="hints">ترفندها</string>
+
 </resources>

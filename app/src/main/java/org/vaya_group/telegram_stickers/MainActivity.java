@@ -1,5 +1,6 @@
 package org.vaya_group.telegram_stickers;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.content.res.AssetManager;
 import android.graphics.Typeface;
@@ -13,7 +14,7 @@ import java.lang.reflect.Type;
 import java.util.Locale;
 
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends Activity {
 
 
     @Override
@@ -25,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
             public void run() {
                 try {
                     sleep(4000);
-                    Intent startMainScreen = new Intent(getApplicationContext(), categories.class);
+                    Intent startMainScreen = new Intent(getApplicationContext(), first_menu.class);
                     startActivity(startMainScreen);
                     overridePendingTransition(R.animator.activity_push_up_in, R.animator.activity_push_up_out);
                     finish();

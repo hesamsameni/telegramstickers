@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgrounddark"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="32dp"
+        android:text="VovkusTheWolf"
+        android:textColor="@color/textwhite"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/stickerImage"
+        android:layout_width="300dp"
+
+        android:layout_height="350dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp" />
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="32dp"
+        android:orientation="horizontal"
+        >
+
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="4dp"
+            android:background="@drawable/buttons"
+            android:text="@string/previous"
+            android:textColor="@color/textwhite"
+            android:textSize="10sp"
+            android:onClick="pre"
+
+            />
+
+        <Button
+            android:id="@+id/getsticker"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/buttons"
+            android:onClick="getthesticker"
+            android:paddingLeft="25dp"
+            android:paddingRight="25dp"
+            android:text="@string/downloadstickers"
+            android:textColor="@color/textwhite"
+            android:textSize="15sp" />
+
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="4dp"
+            android:background="@drawable/buttons"
+            android:text="@string/next"
+            android:textColor="@color/textwhite"
+            android:textSize="10sp"
+            android:onClick="nxt"
+            />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/gotocategories"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/round_button"
+        android:onClick="categories"
+        android:layout_marginBottom="32dp"
+        android:text="@string/gotocategories"
+        android:textColor="@color/textwhite"
+        android:textSize="8sp" />
+
+</LinearLayout>

@@ -2,13 +2,17 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="org.vaya_group.telegram_stickers">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
+        android:permission=""
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name=".MainActivity"
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar.Fullscreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -16,7 +20,66 @@
             </intent-filter>
         </activity>
 
+        <activity android:name=".first_menu"></activity>
+
         <activity android:name=".categories"></activity>
+        <activity android:name=".animals"></activity>
+        <activity android:name=".animals1"></activity>
+        <activity android:name=".animals2"></activity>
+        <activity android:name=".animals3"></activity>
+        <activity android:name=".animals4"></activity>
+        <activity android:name=".animals5"></activity>
+        <activity android:name=".animals6"></activity>
+        <activity android:name=".animals7"></activity>
+        <activity android:name=".animals8"></activity>
+        <activity android:name=".animals9"></activity>
+        <activity android:name=".animals10"></activity>
+        <activity android:name=".animals11"></activity>
+        <activity android:name=".animals12"></activity>
+        <activity android:name=".animals13"></activity>
+        <activity android:name=".animals14"></activity>
+        <activity android:name=".animals15"></activity>
+        <activity android:name=".animals16"></activity>
+        <activity android:name=".animals17"></activity>
+        <activity android:name=".animals18"></activity>
+        <activity android:name=".animals19"></activity>
+        <activity android:name=".animals20"></activity>
+
+        <activity android:name=".movies"></activity>
+        <activity android:name=".movies1"></activity>
+        <activity android:name=".movies2"></activity>
+        <activity android:name=".movies3"></activity>
+        <activity android:name=".movies4"></activity>
+        <activity android:name=".movies5"></activity>
+        <activity android:name=".movies6"></activity>
+        <activity android:name=".movies7"></activity>
+        <activity android:name=".movies8"></activity>
+        <activity android:name=".movies9"></activity>
+        <activity android:name=".movies10"></activity>
+        <activity android:name=".movies11"></activity>
+        <activity android:name=".movies12"></activity>
+        <activity android:name=".movies13"></activity>
+        <activity android:name=".movies14"></activity>
+        <activity android:name=".movies15"></activity>
+        <activity android:name=".movies16"></activity>
+        <activity android:name=".movies17"></activity>
+
+        <activity android:name=".sports"></activity>
+        <activity android:name=".sports1"></activity>
+        <activity android:name=".sports2"></activity>
+        <activity android:name=".sports3"></activity>
+        <activity android:name=".sports4"></activity>
+        <activity android:name=".sports5"></activity>
+        <activity android:name=".sports6"></activity>
+        <activity android:name=".sports7"></activity>
+        <activity android:name=".sports8"></activity>
+        <activity android:name=".sports9"></activity>
+        <activity android:name=".sports10"></activity>
+
+
+
+
+
 
     </application>
 
