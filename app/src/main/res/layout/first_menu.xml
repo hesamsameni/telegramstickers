@@ -7,13 +7,13 @@
 
  <Button
      android:layout_width="300dp"
-     android:layout_height="200dp"
+     android:layout_height="130dp"
      android:background="@drawable/buttons"
      android:text="@string/sticker"
      android:textColor="@color/textwhite"
      android:layout_gravity="center_horizontal"
      android:layout_marginTop="50dp"
-     android:textSize="50sp"
+     android:textSize="35sp"
      android:id="@+id/stickerButton"
      android:onClick="stickers"
 
@@ -22,15 +22,29 @@
 
     <Button
         android:layout_width="300dp"
-        android:layout_height="200dp"
+        android:layout_height="130dp"
         android:background="@drawable/buttons"
         android:text="@string/hints"
         android:textColor="@color/textwhite"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="32dp"
-        android:textSize="50sp"
+        android:textSize="35sp"
         android:id="@+id/hintButton"
         android:onClick="hints"
+
+        />
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="130dp"
+        android:background="@drawable/buttons"
+        android:text="@string/groups"
+        android:textColor="@color/textwhite"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="32dp"
+        android:textSize="35sp"
+        android:id="@+id/groupButton"
+        android:onClick="groups"
 
         />
 

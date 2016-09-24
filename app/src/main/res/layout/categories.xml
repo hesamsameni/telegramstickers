@@ -33,7 +33,8 @@
             android:text="حیوانات"
             android:textAlignment="center"
             android:textColor="#FFFFFF"
-            android:textSize="15sp" />
+            android:textSize="15sp"
+            android:id="@+id/animals"/>
     </LinearLayout>
 
     <LinearLayout
@@ -61,7 +62,8 @@
             android:text="عاشقانه"
             android:textAlignment="center"
             android:textColor="#FFFFFF"
-            android:textSize="15sp" />
+            android:textSize="15sp"
+            android:id="@+id/love"/>
     </LinearLayout>
 
     <LinearLayout
@@ -78,6 +80,7 @@
             android:src="@drawable/movies" />
 
         <Button
+            android:id="@+id/movies"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical"
@@ -117,7 +120,8 @@
             android:text="ورزشی"
             android:textAlignment="center"
             android:textColor="#FFFFFF"
-            android:textSize="15sp" />
+            android:textSize="15sp"
+            android:id="@+id/sports"/>
     </LinearLayout>
 
     <LinearLayout
@@ -145,7 +149,8 @@
             android:text="کارتون"
             android:textAlignment="center"
             android:textColor="#FFFFFF"
-            android:textSize="15sp" />
+            android:textSize="15sp"
+            android:id="@+id/cartoons"/>
     </LinearLayout>
 
     <LinearLayout
@@ -173,7 +178,8 @@
             android:text="بازی کامپیوتری"
             android:textAlignment="center"
             android:textColor="#FFFFFF"
-            android:textSize="15sp" />
+            android:textSize="15sp"
+            android:id="@+id/videogames"/>
     </LinearLayout>
 
     <LinearLayout
@@ -202,7 +208,8 @@
             android:text="متفرقه"
             android:textAlignment="center"
             android:textColor="#FFFFFF"
-            android:textSize="15sp" />
+            android:textSize="15sp"
+            android:id="@+id/other"/>
     </LinearLayout>
 
 

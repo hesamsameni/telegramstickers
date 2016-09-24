@@ -76,6 +76,33 @@
         <activity android:name=".sports9"></activity>
         <activity android:name=".sports10"></activity>
 
+        <activity android:name=".videogames"></activity>
+        <activity android:name=".videogames1"></activity>
+        <activity android:name=".videogames2"></activity>
+        <activity android:name=".videogames3"></activity>
+        <activity android:name=".videogames4"></activity>
+        <activity android:name=".videogames5"></activity>
+        <activity android:name=".videogames6"></activity>
+        <activity android:name=".videogames7"></activity>
+        <activity android:name=".videogames8"></activity>
+        <activity android:name=".videogames9"></activity>
+        <activity android:name=".videogames10"></activity>
+        <activity android:name=".videogames11"></activity>
+        <activity android:name=".videogames12"></activity>
+        <activity android:name=".videogames13"></activity>
+        <activity android:name=".videogames14"></activity>
+        <activity android:name=".videogames15"></activity>
+        <activity android:name=".videogames16"></activity>
+        <activity android:name=".videogames17"></activity>
+
+        <activity android:name=".love"></activity>
+        <activity android:name=".love1"></activity>
+        <activity android:name=".love2"></activity>
+        <activity android:name=".love3"></activity>
+        <activity android:name=".love4"></activity>
+        <activity android:name=".love5"></activity>
+
+
 
 
 

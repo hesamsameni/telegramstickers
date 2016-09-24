@@ -17,7 +17,24 @@ public class first_menu extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.first_menu);}
+        setContentView(R.layout.first_menu);
+
+        ////___ This is the way to set a custom font to several TextViews ____/////
+
+        Typeface tf3 = Typeface.createFromAsset(getAssets(), "fonts/IRANSansMobile_Light.ttf");
+
+        Button tv2 = (Button) findViewById(R.id.stickerButton);
+        tv2.setTypeface(tf3);
+        Button tv3 = (Button) findViewById(R.id.hintButton);
+        tv3.setTypeface(tf3);
+        Button tv4 = (Button) findViewById(R.id.groupButton);
+        tv4.setTypeface(tf3);
+
+
+
+
+
+    }
 
 
 

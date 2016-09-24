@@ -1,9 +1,11 @@
 package org.vaya_group.telegram_stickers;
 
 import android.content.Intent;
+import android.graphics.Typeface;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
+import android.widget.Button;
 
 public class categories extends AppCompatActivity {
 
@@ -11,6 +13,26 @@ public class categories extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.categories);
+
+
+        ////___ This is the way to set a custom font to several TextViews ____/////
+
+        Typeface tf3 = Typeface.createFromAsset(getAssets(), "fonts/IRANSansMobile_Light.ttf");
+
+        Button tv = (Button) findViewById(R.id.animals);
+        tv.setTypeface(tf3);
+        Button tv1 = (Button) findViewById(R.id.love);
+        tv1.setTypeface(tf3);
+        Button tv2 = (Button) findViewById(R.id.movies);
+        tv2.setTypeface(tf3);
+        Button tv3 = (Button) findViewById(R.id.sports);
+        tv3.setTypeface(tf3);
+        Button tv4 = (Button) findViewById(R.id.cartoons);
+        tv4.setTypeface(tf3);
+        Button tv5 = (Button) findViewById(R.id.videogames);
+        tv5.setTypeface(tf3);
+        Button tv6 = (Button) findViewById(R.id.other);
+        tv6.setTypeface(tf3);
 
     }
 

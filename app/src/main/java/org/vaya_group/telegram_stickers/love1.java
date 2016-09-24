@@ -12,19 +12,19 @@ import com.squareup.picasso.Picasso;
 
 
 
-public class love extends AppCompatActivity {
+public class love1 extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.love);
+        setContentView(R.layout.love1);
 
 
         Button getSticker = (Button) findViewById(R.id.getsticker);
         ImageView stickerImage = (ImageView) findViewById(R.id.stickerImage);
 
 
-        String imageUrl = "http://1001download.com/wp-content/uploads/2015/03/%D8%A7%D8%B3%D8%AA%DB%8C%DA%A9%D8%B1-%DA%AF%D9%84-%D8%A8%D8%B1%D8%A7%DB%8C-%D8%AA%D9%84%DA%AF%D8%B1%D8%A7%D9%85.jpg";
+        String imageUrl = "https://stickers.acidodivertido.com/wp-content/uploads/2016/05/Sweettt-Telegram-Stickers-stickers.acidodivertido.com_.jpg";
         ///___ displaying image from url using PICASSO____////
         Picasso.with(getApplicationContext()).load(imageUrl).into(stickerImage);
         ////_____HesamSameni____/////
@@ -33,14 +33,14 @@ public class love extends AppCompatActivity {
 
     public void getthesticker(View view) {
 
-        Uri uri = Uri.parse("https://telegram.me/addstickers/Rose_1001download"); // missing 'http://' will cause crashed
+        Uri uri = Uri.parse("https://telegram.me/addstickers/Sweettt"); // missing 'http://' will cause crashed
         Intent intent = new Intent(Intent.ACTION_VIEW, uri);
         startActivity(intent);
     }
 
 
     public void nxt(View view) {
-        Intent i = new Intent(getApplicationContext(), love1.class);
+        Intent i = new Intent(getApplicationContext(), love2.class);
         startActivity(i);
         overridePendingTransition(R.animator.activity_push_up_in, R.animator.activity_push_up_out);
 
