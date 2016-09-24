@@ -10,7 +10,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="32dp"
-        android:text="Maya the Bee"
+        android:text="Inside Out"
         android:textColor="@color/textwhite"
         android:textSize="20sp" />
 

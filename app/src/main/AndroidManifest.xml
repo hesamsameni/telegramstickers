@@ -102,6 +102,24 @@
         <activity android:name=".love4"></activity>
         <activity android:name=".love5"></activity>
 
+        <activity android:name=".cartoons"></activity>
+        <activity android:name=".cartoons1"></activity>
+        <activity android:name=".cartoons2"></activity>
+        <activity android:name=".cartoons3"></activity>
+        <activity android:name=".cartoons4"></activity>
+        <activity android:name=".cartoons5"></activity>
+        <activity android:name=".cartoons6"></activity>
+        <activity android:name=".cartoons7"></activity>
+        <activity android:name=".cartoons8"></activity>
+        <activity android:name=".cartoons9"></activity>
+        <activity android:name=".cartoons10"></activity>
+        <activity android:name=".cartoons11"></activity>
+        <activity android:name=".cartoons12"></activity>
+        <activity android:name=".cartoons13"></activity>
+        <activity android:name=".cartoons14"></activity>
+        <activity android:name=".cartoons15"></activity>
+
+
 
 
 
