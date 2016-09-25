@@ -52,6 +52,11 @@ public class first_menu extends AppCompatActivity {
         startActivity(i);
         overridePendingTransition(R.animator.activity_push_up_in, R.animator.activity_push_up_out);
     }
+    public void hints (View view){
+        Intent i = new Intent(getApplicationContext(), hints.class);
+        startActivity(i);
+        overridePendingTransition(R.animator.activity_push_up_in, R.animator.activity_push_up_out);
+    }
 
 
 

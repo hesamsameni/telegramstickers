@@ -33,6 +33,8 @@ public class categories extends AppCompatActivity {
         tv5.setTypeface(tf3);
         Button tv6 = (Button) findViewById(R.id.other);
         tv6.setTypeface(tf3);
+        Button tv7 = (Button) findViewById(R.id.mainmenu);
+        tv7.setTypeface(tf3);
 
     }
 
@@ -96,6 +98,12 @@ public class categories extends AppCompatActivity {
         startActivity(i);
         overridePendingTransition(R.animator.activity_push_up_in, R.animator.activity_push_up_out);
 
+    }
+
+    public void menu (View view){
+        Intent i = new Intent(getApplicationContext(), first_menu.class);
+        startActivity(i);
+        overridePendingTransition(R.animator.activity_push_up_in, R.animator.activity_push_up_out);
     }
 
 }

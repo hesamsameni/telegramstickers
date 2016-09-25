@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/textwhite"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/hintListText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="32dp"
+            android:layout_marginTop="32dp"
+            android:text="@string/hintListText"
+            android:textColor="@color/textblack"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/h1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:background="@color/b1"
+            android:text="@string/hint1"
+            android:textColor="@color/textwhite"
+            android:onClick="hint1"/>
+
+        <Button
+            android:onClick="hint2"
+            android:id="@+id/h2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:background="@color/b1"
+            android:text="@string/hint2"
+            android:textColor="@color/textwhite" />
+
+        <Button
+            android:onClick="hint3"
+            android:id="@+id/h3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:background="@color/b1"
+            android:text="@string/hint3"
+            android:textColor="@color/textwhite" />
+
+        <Button
+            android:onClick="hint4"
+            android:id="@+id/h4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:background="@color/b1"
+            android:text="@string/hint4"
+            android:textColor="@color/textwhite" />
+
+        <Button
+            android:onClick="hint5"
+            android:id="@+id/h5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:background="@color/b1"
+            android:text="@string/hint5"
+            android:textColor="@color/textwhite" />
+
+        <Button
+            android:onClick="hint6"
+            android:id="@+id/h6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:background="@color/b1"
+            android:text="@string/hint6"
+            android:textColor="@color/textwhite" />
+
+        <Button
+            android:onClick="hint7"
+            android:id="@+id/h7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:background="@color/b1"
+            android:text="@string/hint7"
+            android:textColor="@color/textwhite" />
+
+        <Button
+            android:onClick="hint8"
+            android:id="@+id/h8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:background="@color/b1"
+            android:text="@string/hint8"
+            android:textColor="@color/textwhite" />
+
+        <Button
+            android:onClick="hint9"
+            android:id="@+id/h9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:background="@color/b1"
+            android:text="@string/hint9"
+            android:textColor="@color/textwhite" />
+
+        <Button
+            android:onClick="hint10"
+            android:id="@+id/h10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:background="@color/b1"
+            android:text="@string/hint10"
+            android:textColor="@color/textwhite" />
+
+        <Button
+            android:onClick="hint11"
+            android:id="@+id/h11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:background="@color/b1"
+            android:text="@string/hint11"
+            android:textColor="@color/textwhite" />
+
+        <Button
+            android:onClick="hint12"
+            android:id="@+id/h12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:background="@color/b1"
+            android:text="@string/hint12"
+            android:textColor="@color/textwhite" />
+
+        <Button
+            android:onClick="hint13"
+            android:id="@+id/h13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:background="@color/b1"
+            android:text="@string/hint13"
+            android:textColor="@color/textwhite" />
+
+        <Button
+            android:onClick="hint14"
+            android:id="@+id/h14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:background="@color/b1"
+            android:text="@string/hint14"
+            android:textColor="@color/textwhite" />
+
+        <Button
+            android:onClick="hint15"
+            android:id="@+id/h15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:background="@color/b1"
+            android:text="@string/hint15"
+            android:textColor="@color/textwhite" />
+
+        <Button
+            android:onClick="hint16"
+            android:id="@+id/h16"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:background="@color/b1"
+            android:text="@string/hint16"
+            android:textColor="@color/textwhite" />
+
+        <Button
+            android:onClick="hint17"
+            android:id="@+id/h17"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:background="@color/b1"
+            android:text="@string/hint17"
+            android:textColor="@color/textwhite" />
+
+        <Button
+            android:onClick="hint18"
+            android:id="@+id/h18"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:background="@color/b1"
+            android:text="@string/hint18"
+            android:textColor="@color/textwhite" />
+
+        <Button
+            android:onClick="hint19"
+            android:id="@+id/h19"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:background="@color/b1"
+            android:text="@string/hint19"
+            android:textColor="@color/textwhite" />
+
+        <Button
+            android:onClick="hint20"
+            android:id="@+id/h20"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:background="@color/b1"
+            android:text="@string/hint20"
+            android:textColor="@color/textwhite" />
+
+        <Button
+            android:id="@+id/menu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="1dp"
+            android:background="@color/b2"
+            android:onClick="menu"
+            android:text="@string/menu"
+            android:textColor="@color/textwhite" />
+
+
+    </LinearLayout>
+</ScrollView>

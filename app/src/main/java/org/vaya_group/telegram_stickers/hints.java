@@ -2,58 +2,43 @@ package org.vaya_group.telegram_stickers;
 
 import android.content.Intent;
 import android.graphics.Typeface;
-import android.net.Uri;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
-import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.squareup.picasso.Picasso;
-
-public class channels extends AppCompatActivity {
-
+/**
+ * Created by Sameni on 25/09/2016.
+ */
+public class hints extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.channels);
-
-        ////___ This is the way to set a custom font to several TextViews ____/////
+        setContentView(R.layout.hints);
 
         Typeface tf3 = Typeface.createFromAsset(getAssets(), "fonts/IRANSansMobile_Light.ttf");
         Typeface tf2 = Typeface.createFromAsset(getAssets(), "fonts/IRANSansMobile_Bold.ttf");
 
 
-        Button tv2 = (Button) findViewById(R.id.khareji);
+        Button tv2 = (Button) findViewById(R.id.hintListButton);
         tv2.setTypeface(tf3);
-        Button tv3 = (Button) findViewById(R.id.irani);
+        Button tv3 = (Button) findViewById(R.id.menu);
         tv3.setTypeface(tf3);
-        Button tv4 = (Button) findViewById(R.id.menu);
-        tv4.setTypeface(tf3);
-        TextView tv5 = (TextView) findViewById(R.id.channels);
+
+        TextView tv5 = (TextView) findViewById(R.id.hints);
         tv5.setTypeface((tf2));
 
 
-
-
-
-
     }
 
-
-
-    public void khareji (View view){
-        Intent i = new Intent(getApplicationContext(), channelsF.class);
+    public void hintList (View view){
+        Intent i = new Intent(getApplicationContext(), hintlist.class);
         startActivity(i);
         overridePendingTransition(R.animator.activity_push_up_in, R.animator.activity_push_up_out);
+
     }
 
-    public void irani (View view){
-        Intent i = new Intent(getApplicationContext(), channelsI.class);
-        startActivity(i);
-        overridePendingTransition(R.animator.activity_push_up_in, R.animator.activity_push_up_out);
-    }
 
     public void menu (View view){
         Intent i = new Intent(getApplicationContext(), first_menu.class);
@@ -63,8 +48,4 @@ public class channels extends AppCompatActivity {
 
 
 
-
-
 }
-
-

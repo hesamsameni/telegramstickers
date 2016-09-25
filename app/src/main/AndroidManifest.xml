@@ -22,6 +22,9 @@
 
         <activity android:name=".first_menu"></activity>
 
+        <activity android:name=".hints"></activity>
+        <activity android:name=".hintlist"></activity>
+
         <activity android:name=".categories"></activity>
         <activity android:name=".channels"></activity>
 
@@ -136,6 +139,27 @@
         <activity android:name=".others8"></activity>
         <activity android:name=".others9"></activity>
         <activity android:name=".others10"></activity>
+
+        <activity android:name=".hint1"></activity>
+        <activity android:name=".hint2"></activity>
+        <activity android:name=".hint3"></activity>
+        <activity android:name=".hint4"></activity>
+        <activity android:name=".hint5"></activity>
+        <activity android:name=".hint6"></activity>
+        <activity android:name=".hint7"></activity>
+        <activity android:name=".hint8"></activity>
+        <activity android:name=".hint9"></activity>
+        <activity android:name=".hint10"></activity>
+        <activity android:name=".hint11"></activity>
+        <activity android:name=".hint12"></activity>
+        <activity android:name=".hint13"></activity>
+        <activity android:name=".hint14"></activity>
+        <activity android:name=".hint15"></activity>
+        <activity android:name=".hint16"></activity>
+        <activity android:name=".hint17"></activity>
+        <activity android:name=".hint18"></activity>
+        <activity android:name=".hint19"></activity>
+        <activity android:name=".hint20"></activity>
 
 
 

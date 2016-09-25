@@ -9,12 +9,13 @@
     <color name="textwhite">#FFFFFF</color>
     <color name="textblack">#000000</color>
 
-    <color name="b1">#BF360C</color>
-    <color name="b3">#006064</color>
-    <color name="b2">#326498</color>
+    <color name="b1">#EF6C00</color>
+    <color name="b3">#009688</color>
+    <color name="b2">#58abef</color>
 
     <color name="b3buttons">#00838F</color>
     <color name="b3buttons2">#0097A7</color>
+    <color name="b3buttons3">#58abef</color>
 
 
 

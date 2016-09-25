@@ -8,58 +8,48 @@
     <ImageView
         android:layout_width="150dp"
         android:layout_height="150dp"
-        android:src="@drawable/logot"
-        android:layout_gravity="center_horizontal"
-
+        android:src="@drawable/hints"
+        android:layout_gravity="center"
         android:layout_marginTop="80dp"
         />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/app_name"
+        android:text="@string/hints"
         android:layout_gravity="center_horizontal"
         android:layout_marginBottom="80dp"
         android:layout_marginTop="40dp"
         android:textColor="@color/textblack"
         android:textSize="20sp"
-        android:id="@+id/app_name"/>
+        android:id="@+id/hints"/>
 
-    <Button
-        android:id="@+id/stickerButton"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:onClick="stickers"
-        android:text="@string/sticker"
-        android:textColor="@color/textwhite"
 
-        android:background="@color/b2"
 
-        />
 
 
     <Button
-        android:id="@+id/hintButton"
+        android:id="@+id/hintListButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:onClick="hints"
-        android:text="@string/hints"
-        android:textColor="@color/textwhite"
-
+        android:layout_gravity="center_horizontal"
+        android:onClick="hintList"
+        android:text="@string/hintsButton"
         android:background="@color/b1"
+        android:textColor="@color/textwhite"/>
 
-        />
+
+
+
 
     <Button
-        android:id="@+id/groupButton"
+        android:id="@+id/menu"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:onClick="groups"
-        android:text="@string/groups"
-        android:textColor="@color/textwhite"
-
-        android:background="@color/b3"
-
-        />
+        android:layout_gravity="center_horizontal"
+        android:onClick="menu"
+        android:text="@string/menu"
+        android:background="@color/b2"
+        android:textColor="@color/textwhite"/>
 
 </LinearLayout>
