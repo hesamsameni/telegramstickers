@@ -11,19 +11,19 @@ import android.widget.ImageView;
 import com.squareup.picasso.Picasso;
 
 
-public class animals20 extends AppCompatActivity {
+public class animals22 extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.animals20);
+        setContentView(R.layout.animals22);
 
 
         Button getSticker = (Button) findViewById(R.id.getsticker);
         ImageView stickerImage = (ImageView) findViewById(R.id.stickerImage);
 
 
-        String imageUrl = "https://www.stickerstelegram.com/wp-content/uploads/2015/10/2015-12-05-17_21_22-Telegram-Web.png";
+        String imageUrl = "http://tstickers.ru/wp-content/uploads/2016/05/Jean-Baptiste-Plagouille.jpg";
         ///___ displaying image from url using PICASSO____////
         Picasso.with(getApplicationContext()).load(imageUrl).into(stickerImage);
         ////_____HesamSameni____/////
@@ -33,21 +33,21 @@ public class animals20 extends AppCompatActivity {
 
     public void getthesticker (View view){
 
-        Uri uri = Uri.parse("https://telegram.me/addstickers/RockosModernLife"); // missing 'http://' will cause crashed
+        Uri uri = Uri.parse("https://telegram.me/addstickers/JeanBaptistePlagouille"); // missing 'http://' will cause crashed
         Intent intent = new Intent(Intent.ACTION_VIEW, uri);
         startActivity(intent);
     }
 
 
     public void nxt (View view){
-        Intent i = new Intent(getApplicationContext(), animals21.class);
+        Intent i = new Intent(getApplicationContext(), animals.class);
         startActivity(i);
         overridePendingTransition(R.animator.activity_push_up_in, R.animator.activity_push_up_out);
 
     }
 
     public void pre (View view){
-        Intent i = new Intent(getApplicationContext(), animals19.class);
+        Intent i = new Intent(getApplicationContext(), animals21.class);
         startActivity(i);
         overridePendingTransition(R.animator.activity_push_up_in, R.animator.activity_push_up_out);
 

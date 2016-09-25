@@ -12,26 +12,22 @@ import android.widget.TextView;
 
 import com.squareup.picasso.Picasso;
 
-public class first_menu extends AppCompatActivity {
+public class channels extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.first_menu);
+        setContentView(R.layout.channels);
 
         ////___ This is the way to set a custom font to several TextViews ____/////
 
         Typeface tf3 = Typeface.createFromAsset(getAssets(), "fonts/IRANSansMobile_Light.ttf");
-        Typeface tf2 = Typeface.createFromAsset(getAssets(), "fonts/IRANSansMobile_Bold.ttf");
 
-        Button tv2 = (Button) findViewById(R.id.stickerButton);
+
+        Button tv2 = (Button) findViewById(R.id.khareji);
         tv2.setTypeface(tf3);
-        Button tv3 = (Button) findViewById(R.id.hintButton);
+        Button tv3 = (Button) findViewById(R.id.irani);
         tv3.setTypeface(tf3);
-        Button tv4 = (Button) findViewById(R.id.groupButton);
-        tv4.setTypeface(tf3);
-        TextView tv5 = (TextView) findViewById(R.id.app_name);
-        tv5.setTypeface((tf2));
 
 
 
@@ -41,17 +37,24 @@ public class first_menu extends AppCompatActivity {
 
 
 
-    public void stickers (View view){
-        Intent i = new Intent(getApplicationContext(), categories.class);
+    public void khareji (View view){
+        Intent i = new Intent(getApplicationContext(), channelsF.class);
         startActivity(i);
         overridePendingTransition(R.animator.activity_push_up_in, R.animator.activity_push_up_out);
     }
 
-    public void groups (View view){
-        Intent i = new Intent(getApplicationContext(), channels.class);
+    public void irani (View view){
+        Intent i = new Intent(getApplicationContext(), channelsI.class);
         startActivity(i);
         overridePendingTransition(R.animator.activity_push_up_in, R.animator.activity_push_up_out);
     }
+
+    public void menu (View view){
+        Intent i = new Intent(getApplicationContext(), first_menu.class);
+        startActivity(i);
+        overridePendingTransition(R.animator.activity_push_up_in, R.animator.activity_push_up_out);
+    }
+
 
 
 

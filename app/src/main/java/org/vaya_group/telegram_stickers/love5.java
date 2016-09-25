@@ -40,7 +40,7 @@ public class love5 extends AppCompatActivity {
 
 
     public void nxt(View view) {
-        Intent i = new Intent(getApplicationContext(), love.class);
+        Intent i = new Intent(getApplicationContext(), love6.class);
         startActivity(i);
         overridePendingTransition(R.animator.activity_push_up_in, R.animator.activity_push_up_out);
 

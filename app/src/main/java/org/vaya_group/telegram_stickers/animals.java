@@ -49,7 +49,7 @@ public class animals extends AppCompatActivity {
     }
 
     public void pre (View view){
-        Intent i = new Intent(getApplicationContext(), animals20.class);
+        Intent i = new Intent(getApplicationContext(), animals22.class);
         startActivity(i);
         overridePendingTransition(R.animator.activity_push_up_in, R.animator.activity_push_up_out);
 

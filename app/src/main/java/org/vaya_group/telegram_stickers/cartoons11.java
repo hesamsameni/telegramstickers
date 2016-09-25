@@ -39,7 +39,7 @@ public class cartoons11 extends AppCompatActivity {
 
 
     public void nxt (View view){
-        Intent i = new Intent(getApplicationContext(), cartoons.class);
+        Intent i = new Intent(getApplicationContext(), cartoons12.class);
         startActivity(i);
         overridePendingTransition(R.animator.activity_push_up_in, R.animator.activity_push_up_out);
 

@@ -34,7 +34,7 @@ public class animals11 extends AppCompatActivity {
         ImageView stickerImage = (ImageView) findViewById(R.id.stickerImage);
 
 
-        String imageUrl = "https://www.stickerstelegram.com/wp-content/uploads/2016/01/2016-08-16_1536.png";
+        String imageUrl = "https://www.stickerstelegram.com/wp-content/uploads/2015/12/sapo.jpg";
         ///___ displaying image from url using PICASSO____////
         Picasso.with(getApplicationContext()).load(imageUrl).into(stickerImage);
         ////_____HesamSameni____/////

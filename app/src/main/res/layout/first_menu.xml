@@ -2,49 +2,63 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/backgrounddark"
+    android:background="@color/textwhite"
     android:orientation="vertical">
 
- <Button
-     android:layout_width="300dp"
-     android:layout_height="130dp"
-     android:background="@drawable/buttons"
-     android:text="@string/sticker"
-     android:textColor="@color/textwhite"
-     android:layout_gravity="center_horizontal"
-     android:layout_marginTop="50dp"
-     android:textSize="35sp"
-     android:id="@+id/stickerButton"
-     android:onClick="stickers"
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/logot"
+        android:layout_gravity="center_horizontal"
 
-     />
+        android:layout_marginTop="80dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="80dp"
+        android:layout_marginTop="40dp"
+        android:textColor="@color/textblack"
+        android:textSize="20sp"
+        android:id="@+id/app_name"/>
+
+    <Button
+        android:id="@+id/stickerButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="stickers"
+        android:text="@string/sticker"
+        android:textColor="@color/textwhite"
+        android:textSize="20sp"
+        android:background="@color/b2"
+
+        />
 
 
     <Button
-        android:layout_width="300dp"
-        android:layout_height="130dp"
-        android:background="@drawable/buttons"
+        android:id="@+id/hintButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="hints"
         android:text="@string/hints"
         android:textColor="@color/textwhite"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginTop="32dp"
-        android:textSize="35sp"
-        android:id="@+id/hintButton"
-        android:onClick="hints"
+        android:textSize="20sp"
+        android:background="@color/b1"
 
         />
 
     <Button
-        android:layout_width="300dp"
-        android:layout_height="130dp"
-        android:background="@drawable/buttons"
+        android:id="@+id/groupButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="groups"
         android:text="@string/groups"
         android:textColor="@color/textwhite"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginTop="32dp"
-        android:textSize="35sp"
-        android:id="@+id/groupButton"
-        android:onClick="groups"
+        android:textSize="20sp"
+        android:background="@color/b3"
 
         />
 

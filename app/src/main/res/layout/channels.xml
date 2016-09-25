@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/b3"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/channels"/>
+
+
+
+
+
+    <Button
+        android:id="@+id/khareji"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:onClick="khareji"
+        android:text="@string/khareji"
+        android:background="@color/b1"
+        android:textColor="@color/textwhite"/>
+
+
+    <Button
+        android:id="@+id/irani"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:onClick="irani"
+        android:text="@string/irani"
+        android:background="@color/b3"
+        android:textColor="@color/textwhite"/>
+
+
+    <Button
+        android:id="@+id/menu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:onClick="menu"
+        android:text="@string/menu"
+        android:background="@color/b2"
+        android:textColor="@color/textwhite"/>
+
+</LinearLayout>

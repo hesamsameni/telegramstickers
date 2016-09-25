@@ -23,6 +23,8 @@
         <activity android:name=".first_menu"></activity>
 
         <activity android:name=".categories"></activity>
+        <activity android:name=".channels"></activity>
+
         <activity android:name=".animals"></activity>
         <activity android:name=".animals1"></activity>
         <activity android:name=".animals2"></activity>
@@ -44,6 +46,8 @@
         <activity android:name=".animals18"></activity>
         <activity android:name=".animals19"></activity>
         <activity android:name=".animals20"></activity>
+        <activity android:name=".animals21"></activity>
+        <activity android:name=".animals22"></activity>
 
         <activity android:name=".movies"></activity>
         <activity android:name=".movies1"></activity>
@@ -101,6 +105,8 @@
         <activity android:name=".love3"></activity>
         <activity android:name=".love4"></activity>
         <activity android:name=".love5"></activity>
+        <activity android:name=".love6"></activity>
+        <activity android:name=".love7"></activity>
 
         <activity android:name=".cartoons"></activity>
         <activity android:name=".cartoons1"></activity>
@@ -118,6 +124,19 @@
         <activity android:name=".cartoons13"></activity>
         <activity android:name=".cartoons14"></activity>
         <activity android:name=".cartoons15"></activity>
+
+        <activity android:name=".others"></activity>
+        <activity android:name=".others1"></activity>
+        <activity android:name=".others2"></activity>
+        <activity android:name=".others3"></activity>
+        <activity android:name=".others4"></activity>
+        <activity android:name=".others5"></activity>
+        <activity android:name=".others6"></activity>
+        <activity android:name=".others7"></activity>
+        <activity android:name=".others8"></activity>
+        <activity android:name=".others9"></activity>
+        <activity android:name=".others10"></activity>
+
 
 
 

@@ -9,6 +9,10 @@
 
     <string name="sticker">استیکرها</string>
     <string name="hints">ترفندها</string>
-    <string name="groups">گروه ها</string>
+    <string name="groups">کانال ها</string>
+
+    <string name="khareji">خارجی</string>
+    <string name="irani">ایرانی</string>
+    <string name="menu">منوی اصلی</string>
 
 </resources>
