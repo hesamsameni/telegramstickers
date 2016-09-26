@@ -1,4 +1,54 @@
 <resources>
+    <string name="boaringclass">Boaring Class</string>
+    <string name="likeyoubro">Like you Bro</string>
+    <string name="askme">Ask Me!</string>
+    <string name="stickerchannel">Sticker Channel</string>
+    <string name="gifchannel">Gif Channel</string>
+    <string name="musicalbum">Full Music Albums</string>
+    <string name="programmerjokes">Programmer Jokes</string>
+    <string name="commonmistakes">Common Mistakes</string>
+    <string name="crynet">Crynet</string>
+    <string name="tvshare">i TV Share</string>
+    <string name="sickmind">Sick mind Media</string>
+    <string name="moviehd">Movie HD Channel</string>
+    <string name="sickosadism">Sickosadism</string>
+
+    <string name="varzesh3">ورزش سه</string>
+    <string name="khabarefori">خبر فوری</string>
+    <string name="khoroosjangi">خروس جنگی</string>
+    <string name="bedandid">بدندید</string>
+    <string name="gizmiz">گیزمیز</string>
+    <string name="jokefarsi">جوک فارسی</string>
+    <string name="alvandmusic">الوند موزیک</string>
+    <string name="yjc">باشگاه خبرنگاران جوان</string>
+    <string name="pandaneh">پندانه</string>
+    <string name="axojoke">عکس و جوک</string>
+    <string name="ajibvalivaghei">عجیب ولی واقعی</string>
+    <string name="dirindirin">دیرین دیرین</string>
+    <string name="coffeegram">کافی گرام</string>
+    <string name="drsalamat">دکتر سلامت</string>
+    <string name="lezateashpazi">لذت آشپزی</string>
+    <string name="farsna">خبرگذاری فارس</string>
+    <string name="channel90">کانال 90</string>
+    <string name="eslahatnews">اصلاحات نیوز</string>
+    <string name="donyayeashpazi">دنیای آشپزی</string>
+    <string name="isna">خبرگذاری ایسنا</string>
+    <string name="golagha">گل آقا</string>
+    <string name="rajanews">رجا نیوز</string>
+    <string name="khandevaneh">خندوانه</string>
+    <string name="digiato">دیجیاتو</string>
+    <string name="varzesh">شبکه ورزش</string>
+
+
+
+
+
+
+
+
+
+
+
     <string name="app_name">تلگرام وایا</string>
     <string name="downloadstickers">دریافت استیکر</string>
     <string name="next">بعدی</string>
