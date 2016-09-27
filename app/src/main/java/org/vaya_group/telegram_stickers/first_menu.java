@@ -30,6 +30,9 @@ public class first_menu extends AppCompatActivity {
         tv3.setTypeface(tf3);
         Button tv4 = (Button) findViewById(R.id.groupButton);
         tv4.setTypeface(tf3);
+        Button tv6 = (Button) findViewById(R.id.contactus);
+        tv6.setTypeface(tf3);
+
         TextView tv5 = (TextView) findViewById(R.id.app_name);
         tv5.setTypeface((tf2));
 
@@ -54,6 +57,11 @@ public class first_menu extends AppCompatActivity {
     }
     public void hints (View view){
         Intent i = new Intent(getApplicationContext(), hints.class);
+        startActivity(i);
+        overridePendingTransition(R.animator.activity_push_up_in, R.animator.activity_push_up_out);
+    }
+    public void contact (View view){
+        Intent i = new Intent(getApplicationContext(), contact.class);
         startActivity(i);
         overridePendingTransition(R.animator.activity_push_up_in, R.animator.activity_push_up_out);
     }

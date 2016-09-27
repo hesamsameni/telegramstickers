@@ -8,70 +8,53 @@
     <ImageView
         android:layout_width="150dp"
         android:layout_height="150dp"
-        android:src="@drawable/logot"
+        android:src="@drawable/contactus"
         android:layout_gravity="center_horizontal"
-
         android:layout_marginTop="80dp"
         />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/app_name"
+        android:text="@string/contact"
         android:layout_gravity="center_horizontal"
         android:layout_marginBottom="80dp"
         android:layout_marginTop="40dp"
         android:textColor="@color/textblack"
         android:textSize="20sp"
-        android:id="@+id/app_name"/>
+        android:id="@+id/contactusText"/>
 
     <Button
-        android:id="@+id/stickerButton"
+
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:onClick="stickers"
-        android:text="@string/sticker"
+        android:onClick="mailus"
+        android:text="@string/mailus"
+        android:id="@+id/mailus"
+        android:background="@color/b3"
         android:textColor="@color/textwhite"
+     />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="telegramus"
+        android:text="@string/telegramus"
+        android:id="@+id/telegramus"
+        android:background="@color/b1"
+        android:textColor="@color/textwhite"
+      />
+
+    <Button
+        android:id="@+id/returnToHints"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
 
         android:background="@color/b2"
-
-        />
-
-
-    <Button
-        android:id="@+id/hintButton"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:onClick="hints"
-        android:text="@string/hints"
+        android:onClick="returnToHints"
+        android:text="@string/returnToHints"
         android:textColor="@color/textwhite"
-
-        android:background="@color/b1"
-
-        />
-
-    <Button
-        android:id="@+id/groupButton"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:onClick="groups"
-        android:text="@string/groups"
-        android:textColor="@color/textwhite"
-
-        android:background="@color/b3"
-
-        />
-
-    <Button
-        android:id="@+id/contactus"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:onClick="contact"
-        android:text="@string/contact"
-        android:textColor="@color/textwhite"
-
-        android:background="@color/b4"
-
-        />
+     />
 
 </LinearLayout>

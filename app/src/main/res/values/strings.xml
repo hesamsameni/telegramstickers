@@ -50,6 +50,13 @@
 
 
     <string name="app_name">تلگرام وایا</string>
+
+    <string name="mailus">ارتباط از طریق ایمیل</string>
+    <string name="telegramus">ارتباط از طریق تلگرام</string>
+
+
+
+
     <string name="downloadstickers">دریافت استیکر</string>
     <string name="next">بعدی</string>
     <string name="previous">قبلی</string>
@@ -62,6 +69,7 @@
     <string name="sticker">استیکرها</string>
     <string name="hints">ترفندها</string>
     <string name="groups">کانال ها</string>
+    <string name="contact">ارتباط با ما</string>
 
     <string name="khareji">خارجی</string>
     <string name="irani">ایرانی</string>
