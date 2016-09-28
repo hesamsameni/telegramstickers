@@ -1,0 +1,38 @@
+{
+  "project_info": {
+    "project_number": "747378941251",
+    "project_id": "telegram-vaya"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:747378941251:android:5ee69585ed6856e2",
+        "android_client_info": {
+          "package_name": "org.vaya_group.telegram_stickers"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAkaEtMNuHJTD3WQL7_90pnQan9aIMkMlc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 2,
+          "analytics_property": {
+            "tracking_id": "UA-84800233-1"
+          }
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

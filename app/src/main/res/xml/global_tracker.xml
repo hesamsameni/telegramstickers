@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <string name="ga_trackingId">UA-84800233-1</string>
+    <bool name="ga_autoActivityTracking">true</bool>
+    <screenName name="org.vaya_group.telegram_stickers.MainActivity">Main activity</screenName>
+    <screenName name="org.vaya_group.telegram_stickers.first_menu">First Menu</screenName>
+
+</resources>

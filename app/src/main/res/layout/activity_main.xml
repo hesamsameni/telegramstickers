@@ -11,7 +11,7 @@
         android:id="@+id/telegram"
         android:layout_width="160dp"
         android:layout_height="160dp"
-        android:src="@drawable/logot"
+        android:src="@drawable/logotred"
         android:layout_gravity="center"
         android:layout_marginTop="80dp"
        />

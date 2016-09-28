@@ -23,6 +23,7 @@ public class MainActivity extends Activity {
 
 
 
+
         //___ Set Timer For Splash Screen to be On The Screen (3000 means 3 seconds____///
         Thread myThread = new Thread() {
             @Override
@@ -43,8 +44,9 @@ public class MainActivity extends Activity {
 
         setContentView(R.layout.activity_main);
 
-        Typeface tf = Typeface.createFromAsset(getAssets(), "fonts/IRANSansMobile_Bold.ttf");
 
+
+        Typeface tf = Typeface.createFromAsset(getAssets(), "fonts/IRANSansMobile_Bold.ttf");
         TextView tv = (TextView)findViewById(R.id.appname);
         tv.setTypeface((tf));
 

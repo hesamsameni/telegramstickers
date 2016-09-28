@@ -25,6 +25,10 @@ dependencies {
     compile 'com.android.support:appcompat-v7:24.1.1'
     ///this library is for getting image from url
     compile 'com.squareup.picasso:picasso:2.5.2'
+    compile 'com.google.android.gms:play-services:7.3.0'
+
 
 
 }
+
+
