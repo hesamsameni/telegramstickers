@@ -1,7 +1,7 @@
 package org.vaya_group.telegram_stickers;
 
 import android.content.Intent;
-import android.media.Image;
+
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -11,7 +11,7 @@ import android.widget.ImageView;
 
 import com.squareup.picasso.Picasso;
 
-import java.io.BufferedReader;
+
 
 public class animals extends AppCompatActivity {
 

@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "478011809709",
+    "firebase_url": "https://telegram-vaya-e2e51.firebaseio.com",
+    "project_id": "telegram-vaya-e2e51",
+    "storage_bucket": "telegram-vaya-e2e51.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:478011809709:android:5ee69585ed6856e2",
+        "android_client_info": {
+          "package_name": "org.vaya_group.telegram_stickers"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "478011809709-0ps1mrth8nunslta3k3suut470eplmvb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAU9KIU5MfVW6-S575KOCHNZ9HpaJXfLwY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

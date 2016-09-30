@@ -6,10 +6,12 @@ android {
 
     defaultConfig {
         applicationId "org.vaya_group.telegram_stickers"
-        minSdkVersion 15
+        minSdkVersion 21
         targetSdkVersion 24
         versionCode 1
         versionName "1.0"
+        multiDexEnabled true
+
     }
     buildTypes {
         release {
@@ -25,10 +27,12 @@ dependencies {
     compile 'com.android.support:appcompat-v7:24.1.1'
     ///this library is for getting image from url
     compile 'com.squareup.picasso:picasso:2.5.2'
-    compile 'com.google.android.gms:play-services:7.3.0'
-
-
-
+    compile 'com.google.android.gms:play-services:9.6.1'
+    compile 'com.google.firebase:firebase-messaging:9.2.1'
+    compile 'com.android.support:multidex:1.0.0'
+//    compile 'com.google.android.gms:play-services-analytics:9.6.1'
 }
+apply plugin: 'com.google.gms.google-services'
+
 
 
