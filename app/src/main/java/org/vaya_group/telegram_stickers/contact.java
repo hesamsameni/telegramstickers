@@ -26,12 +26,16 @@ public class contact extends AppCompatActivity {
 
         Button tv2 = (Button) findViewById(R.id.mailus);
         tv2.setTypeface(tf3);
+        Button tv4 = (Button) findViewById(R.id.recourcesOfApp);
+        tv4.setTypeface(tf3);
         Button tv3 = (Button) findViewById(R.id.telegramus);
         tv3.setTypeface(tf3);
         Button tv1 = (Button) findViewById(R.id.returnToHints);
         tv1.setTypeface(tf3);
         TextView tv5 = (TextView) findViewById(R.id.contactusText);
         tv5.setTypeface((tf2));
+        TextView tv6 = (TextView) findViewById(R.id.add);
+        tv6.setTypeface((tf3));
     }
 
     public void mailus (View view){
@@ -56,6 +60,13 @@ public class contact extends AppCompatActivity {
         startActivity(i);
         overridePendingTransition(R.animator.activity_push_up_in, R.animator.activity_push_up_out);
     }
+
+    public void recourcesOfApp (View view) {
+        Intent i = new Intent(getApplicationContext(), resourcesofapp.class);
+        startActivity(i);
+        overridePendingTransition(R.animator.activity_push_up_in, R.animator.activity_push_up_out);
+    }
+
 
 
 }

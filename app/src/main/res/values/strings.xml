@@ -12,6 +12,7 @@
     <string name="sickmind">Sick mind Media</string>
     <string name="moviehd">Movie HD Channel</string>
     <string name="sickosadism">Sickosadism</string>
+    <string name="yourAdd">کانال شما</string>
 
     <string name="varzesh3">ورزش سه</string>
     <string name="khabarefori">خبر فوری</string>
@@ -53,6 +54,14 @@
 
     <string name="mailus">ارتباط از طریق ایمیل</string>
     <string name="telegramus">ارتباط از طریق تلگرام</string>
+    <string name="resourceTitle">منابع استفاده شده در اپلیکیشن</string>
+
+    <string name="resource1">www.gsm.ir</string>
+    <string name="resource2">www.stickerstelegram.com</string>
+    <string name="resource3">www.telegram.org/blog/stickers-revolution</string>
+    <string name="resource4">www.channelsfortelegram.com</string>
+
+
 
 
 
@@ -69,7 +78,8 @@
     <string name="sticker">استیکرها</string>
     <string name="hints">ترفندها</string>
     <string name="groups">کانال ها</string>
-    <string name="contact">ارتباط با ما</string>
+    <string name="contact">درباره ما</string>
+    <string name="add">برای ثبت کانال و استیکر های خود به ما پیغام بدهید</string>
 
     <string name="khareji">خارجی</string>
     <string name="irani">ایرانی</string>

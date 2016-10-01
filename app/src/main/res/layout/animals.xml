@@ -14,10 +14,12 @@
         android:textColor="@color/textwhite"
         android:textSize="20sp" />
 
+
+
     <ImageView
+        
         android:id="@+id/stickerImage"
         android:layout_width="300dp"
-
         android:layout_height="350dp"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="16dp"

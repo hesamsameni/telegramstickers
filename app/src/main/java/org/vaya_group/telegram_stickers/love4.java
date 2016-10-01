@@ -26,7 +26,7 @@ public class love4 extends AppCompatActivity {
 
         String imageUrl = "http://1001download.com/wp-content/uploads/2015/11/%D8%A7%D8%B3%D8%AA%DB%8C%DA%A9%D8%B1-%D8%B9%D8%A7%D8%B4%D9%82%D8%A7%D9%86%D9%87-%D8%AA%D9%84%DA%AF%D8%B1%D8%A7%D9%85.jpg";
         ///___ displaying image from url using PICASSO____////
-        Picasso.with(getApplicationContext()).load(imageUrl).into(stickerImage);
+        Picasso.with(getApplicationContext()).load(imageUrl).placeholder(R.drawable.placeholder).into(stickerImage);
         ////_____HesamSameni____/////
     }
 

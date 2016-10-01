@@ -37,6 +37,7 @@
             android:textColor="@color/textblack"
             android:textSize="13sp"
             android:padding="16dp"
+            android:lineSpacingExtra="10dp"
          />
 
         <Button

@@ -26,7 +26,7 @@ public class videogames4 extends AppCompatActivity {
 
         String imageUrl = "https://stickers.acidodivertido.com/wp-content/uploads/2015/11/Minecraft-Telegram-Stickers-stickers.acidodivertido.com_.jpg";
         ///___ displaying image from url using PICASSO____////
-        Picasso.with(getApplicationContext()).load(imageUrl).into(stickerImage);
+        Picasso.with(getApplicationContext()).load(imageUrl).placeholder(R.drawable.placeholder).into(stickerImage);
         ////_____HesamSameni____/////
     }
 

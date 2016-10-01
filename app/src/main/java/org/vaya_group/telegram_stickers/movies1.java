@@ -27,7 +27,7 @@ public class movies1 extends AppCompatActivity {
 
         String imageUrl = "https://www.stickerstelegram.com/wp-content/uploads/2015/06/harry-potter.png";
         ///___ displaying image from url using PICASSO____////
-        Picasso.with(getApplicationContext()).load(imageUrl).into(stickerImage);
+        Picasso.with(getApplicationContext()).load(imageUrl).placeholder(R.drawable.placeholder).into(stickerImage);
         ////_____HesamSameni____/////
     }
 

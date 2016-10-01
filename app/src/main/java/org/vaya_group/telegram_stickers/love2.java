@@ -26,7 +26,7 @@ public class love2 extends AppCompatActivity {
 
         String imageUrl = "http://nagahan.com/img/up/6231324_1461351108.jpg";
         ///___ displaying image from url using PICASSO____////
-        Picasso.with(getApplicationContext()).load(imageUrl).into(stickerImage);
+        Picasso.with(getApplicationContext()).load(imageUrl).placeholder(R.drawable.placeholder).into(stickerImage);
         ////_____HesamSameni____/////
     }
 

@@ -26,7 +26,7 @@ public class videogames2 extends AppCompatActivity {
 
         String imageUrl = "https://stickers.acidodivertido.com/wp-content/uploads/2015/12/Cut-the-Rope-Christmas-Telegram-Stickers-stickers.acidodivertido.com_.jpg";
         ///___ displaying image from url using PICASSO____////
-        Picasso.with(getApplicationContext()).load(imageUrl).into(stickerImage);
+        Picasso.with(getApplicationContext()).load(imageUrl).placeholder(R.drawable.placeholder).into(stickerImage);
         ////_____HesamSameni____/////
     }
 

@@ -24,7 +24,7 @@ public class cartoons5 extends AppCompatActivity {
 
         String imageUrl = "https://www.stickerstelegram.com/wp-content/uploads/2016/01/2016-08-17_0948.png";
         ///___ displaying image from url using PICASSO____////
-        Picasso.with(getApplicationContext()).load(imageUrl).into(stickerImage);
+        Picasso.with(getApplicationContext()).load(imageUrl).placeholder(R.drawable.placeholder).into(stickerImage);
         ////_____HesamSameni____/////
     }
 

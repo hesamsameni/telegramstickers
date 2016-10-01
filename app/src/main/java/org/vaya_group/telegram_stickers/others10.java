@@ -26,7 +26,7 @@ public class others10 extends AppCompatActivity {
 
         String imageUrl = "http://telegramhub.net/wp-content/uploads/2015/12/wpid-screenshot_20151211-1532000101.jpg.jpg";
         ///___ displaying image from url using PICASSO____////
-        Picasso.with(getApplicationContext()).load(imageUrl).into(stickerImage);
+        Picasso.with(getApplicationContext()).load(imageUrl).placeholder(R.drawable.placeholder).into(stickerImage);
         ////_____HesamSameni____/////
     }
 

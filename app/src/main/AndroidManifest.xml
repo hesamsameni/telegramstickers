@@ -28,174 +28,304 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".first_menu"></activity>
+        <activity android:name=".first_menu"
+            android:screenOrientation="portrait"></activity>
 
-        <activity android:name=".hints"></activity>
-        <activity android:name=".hintlist"></activity>
-        <activity android:name=".contact"></activity>
+        <activity android:name=".hints"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".hintlist"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".contact"
+            android:screenOrientation="portrait"></activity>
 
-        <activity android:name=".categories"></activity>
-        <activity android:name=".channels"></activity>
+        <activity android:name=".categories"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".channels"
+            android:screenOrientation="portrait"></activity>
 
-        <activity android:name=".animals"></activity>
-        <activity android:name=".animals1"></activity>
-        <activity android:name=".animals2"></activity>
-        <activity android:name=".animals3"></activity>
-        <activity android:name=".animals4"></activity>
-        <activity android:name=".animals5"></activity>
-        <activity android:name=".animals6"></activity>
-        <activity android:name=".animals7"></activity>
-        <activity android:name=".animals8"></activity>
-        <activity android:name=".animals9"></activity>
-        <activity android:name=".animals10"></activity>
-        <activity android:name=".animals11"></activity>
-        <activity android:name=".animals12"></activity>
-        <activity android:name=".animals13"></activity>
-        <activity android:name=".animals14"></activity>
-        <activity android:name=".animals15"></activity>
-        <activity android:name=".animals16"></activity>
-        <activity android:name=".animals17"></activity>
-        <activity android:name=".animals18"></activity>
-        <activity android:name=".animals19"></activity>
-        <activity android:name=".animals20"></activity>
-        <activity android:name=".animals21"></activity>
-        <activity android:name=".animals22"></activity>
+        <activity android:name=".animals"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".animals1"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".animals2"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".animals3"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".animals4"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".animals5"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".animals6"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".animals7"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".animals8"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".animals9"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".animals10"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".animals11"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".animals12"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".animals13"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".animals14"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".animals15"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".animals16"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".animals17"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".animals18"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".animals19"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".animals20"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".animals21"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".animals22"
+            android:screenOrientation="portrait"></activity>
 
-        <activity android:name=".movies"></activity>
-        <activity android:name=".movies1"></activity>
-        <activity android:name=".movies2"></activity>
-        <activity android:name=".movies3"></activity>
-        <activity android:name=".movies4"></activity>
-        <activity android:name=".movies5"></activity>
-        <activity android:name=".movies6"></activity>
-        <activity android:name=".movies7"></activity>
-        <activity android:name=".movies8"></activity>
-        <activity android:name=".movies9"></activity>
-        <activity android:name=".movies10"></activity>
-        <activity android:name=".movies11"></activity>
-        <activity android:name=".movies12"></activity>
-        <activity android:name=".movies13"></activity>
-        <activity android:name=".movies14"></activity>
-        <activity android:name=".movies15"></activity>
-        <activity android:name=".movies16"></activity>
-        <activity android:name=".movies17"></activity>
+        <activity android:name=".movies"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".movies1"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".movies2"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".movies3"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".movies4"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".movies5"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".movies6"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".movies7"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".movies8"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".movies9"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".movies10"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".movies11"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".movies12"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".movies13"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".movies14"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".movies15"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".movies16"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".movies17"
+            android:screenOrientation="portrait"></activity>
 
-        <activity android:name=".sports"></activity>
-        <activity android:name=".sports1"></activity>
-        <activity android:name=".sports2"></activity>
-        <activity android:name=".sports3"></activity>
-        <activity android:name=".sports4"></activity>
-        <activity android:name=".sports5"></activity>
-        <activity android:name=".sports6"></activity>
-        <activity android:name=".sports7"></activity>
-        <activity android:name=".sports8"></activity>
-        <activity android:name=".sports9"></activity>
-        <activity android:name=".sports10"></activity>
+        <activity android:name=".sports"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".sports1"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".sports2"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".sports3"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".sports4"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".sports5"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".sports6"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".sports7"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".sports8"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".sports9"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".sports10"
+            android:screenOrientation="portrait"></activity>
 
-        <activity android:name=".videogames"></activity>
-        <activity android:name=".videogames1"></activity>
-        <activity android:name=".videogames2"></activity>
-        <activity android:name=".videogames3"></activity>
-        <activity android:name=".videogames4"></activity>
-        <activity android:name=".videogames5"></activity>
-        <activity android:name=".videogames6"></activity>
-        <activity android:name=".videogames7"></activity>
-        <activity android:name=".videogames8"></activity>
-        <activity android:name=".videogames9"></activity>
-        <activity android:name=".videogames10"></activity>
-        <activity android:name=".videogames11"></activity>
-        <activity android:name=".videogames12"></activity>
-        <activity android:name=".videogames13"></activity>
-        <activity android:name=".videogames14"></activity>
-        <activity android:name=".videogames15"></activity>
-        <activity android:name=".videogames16"></activity>
-        <activity android:name=".videogames17"></activity>
+        <activity android:name=".videogames"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".videogames1"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".videogames2"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".videogames3"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".videogames4"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".videogames5"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".videogames6"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".videogames7"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".videogames8"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".videogames9"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".videogames10"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".videogames11"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".videogames12"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".videogames13"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".videogames14"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".videogames15"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".videogames16"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".videogames17"
+            android:screenOrientation="portrait"></activity>
 
-        <activity android:name=".love"></activity>
-        <activity android:name=".love1"></activity>
-        <activity android:name=".love2"></activity>
-        <activity android:name=".love3"></activity>
-        <activity android:name=".love4"></activity>
-        <activity android:name=".love5"></activity>
-        <activity android:name=".love6"></activity>
-        <activity android:name=".love7"></activity>
+        <activity android:name=".love"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".love1"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".love2"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".love3"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".love4"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".love5"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".love6"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".love7"
+            android:screenOrientation="portrait"></activity>
 
-        <activity android:name=".cartoons"></activity>
-        <activity android:name=".cartoons1"></activity>
-        <activity android:name=".cartoons2"></activity>
-        <activity android:name=".cartoons3"></activity>
-        <activity android:name=".cartoons4"></activity>
-        <activity android:name=".cartoons5"></activity>
-        <activity android:name=".cartoons6"></activity>
-        <activity android:name=".cartoons7"></activity>
-        <activity android:name=".cartoons8"></activity>
-        <activity android:name=".cartoons9"></activity>
-        <activity android:name=".cartoons10"></activity>
-        <activity android:name=".cartoons11"></activity>
-        <activity android:name=".cartoons12"></activity>
-        <activity android:name=".cartoons13"></activity>
-        <activity android:name=".cartoons14"></activity>
-        <activity android:name=".cartoons15"></activity>
+        <activity android:name=".cartoons"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".cartoons1"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".cartoons2"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".cartoons3"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".cartoons4"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".cartoons5"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".cartoons6"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".cartoons7"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".cartoons8"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".cartoons9"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".cartoons10"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".cartoons11"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".cartoons12"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".cartoons13"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".cartoons14"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".cartoons15"
+            android:screenOrientation="portrait"></activity>
 
-        <activity android:name=".others"></activity>
-        <activity android:name=".others1"></activity>
-        <activity android:name=".others2"></activity>
-        <activity android:name=".others3"></activity>
-        <activity android:name=".others4"></activity>
-        <activity android:name=".others5"></activity>
-        <activity android:name=".others6"></activity>
-        <activity android:name=".others7"></activity>
-        <activity android:name=".others8"></activity>
-        <activity android:name=".others9"></activity>
-        <activity android:name=".others10"></activity>
+        <activity android:name=".others"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".others1"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".others2"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".others3"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".others4"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".others5"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".others6"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".others7"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".others8"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".others9"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".others10"
+            android:screenOrientation="portrait"></activity>
 
-        <activity android:name=".hint1"></activity>
-        <activity android:name=".hint2"></activity>
-        <activity android:name=".hint3"></activity>
-        <activity android:name=".hint4"></activity>
-        <activity android:name=".hint5"></activity>
-        <activity android:name=".hint6"></activity>
-        <activity android:name=".hint7"></activity>
-        <activity android:name=".hint8"></activity>
-        <activity android:name=".hint9"></activity>
-        <activity android:name=".hint10"></activity>
-        <activity android:name=".hint11"></activity>
-        <activity android:name=".hint12"></activity>
-        <activity android:name=".hint13"></activity>
-        <activity android:name=".hint14"></activity>
-        <activity android:name=".hint15"></activity>
-        <activity android:name=".hint16"></activity>
-        <activity android:name=".hint17"></activity>
-        <activity android:name=".hint18"></activity>
-        <activity android:name=".hint19"></activity>
-        <activity android:name=".hint20"></activity>
+        <activity android:name=".hint1"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".hint2"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".hint3"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".hint4"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".hint5"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".hint6"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".hint7"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".hint8"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".hint9"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".hint10"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".hint11"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".hint12"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".hint13"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".hint14"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".hint15"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".hint16"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".hint17"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".hint18"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".hint19"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".hint20"
+            android:screenOrientation="portrait"></activity>
 
-        <activity android:name=".channelsF"></activity>
-        <activity android:name=".channelsI"></activity>
+        <activity android:name=".channelsF"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".channelsI"
+            android:screenOrientation="portrait"></activity>
+
+        <activity android:name=".resourcesofapp"
+            android:screenOrientation="portrait"></activity>
+
+
+
 
 
         //---Services----///
-        <service android:name=".MyFirebaseInstanceIdService">
-            <intent-filter>
-                <action android:name="com.google.firebase.INSTANCE_ID_EVENT"></action>
-            </intent-filter>
-        </service>
 
         <service android:name=".MyFirebaseMessagingService">
             <intent-filter>
                 <action android:name="com.google.firebase.MESSAGING_EVENT"></action>
             </intent-filter>
-
-
         </service>
 
-
-
-
-
-
-
-
+        <service android:name=".MyFirebaseInstanceIdService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT"></action>
+            </intent-filter>
+        </service>
 
 
     </application>

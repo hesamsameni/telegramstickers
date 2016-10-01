@@ -18,11 +18,22 @@
         android:layout_height="wrap_content"
         android:text="@string/contact"
         android:layout_gravity="center_horizontal"
-        android:layout_marginBottom="80dp"
+        android:layout_marginBottom="8dp"
         android:layout_marginTop="40dp"
         android:textColor="@color/textblack"
         android:textSize="20sp"
         android:id="@+id/contactusText"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/add"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="8dp"
+        android:textColor="@color/textblack"
+        android:textSize="12sp"
+        android:id="@+id/add"/>
 
     <Button
 
@@ -44,6 +55,16 @@
         android:background="@color/b1"
         android:textColor="@color/textwhite"
       />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="recourcesOfApp"
+        android:text="@string/resourceTitle"
+        android:id="@+id/recourcesOfApp"
+        android:background="@color/b4"
+        android:textColor="@color/textwhite"
+        />
 
     <Button
         android:id="@+id/returnToHints"

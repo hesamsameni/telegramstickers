@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/textwhite">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/resourceTitle"
+        android:textColor="@color/textblack"
+        android:textSize="20sp"
+        android:id="@+id/resourceTitle"
+        android:layout_marginBottom="40dp"
+        android:layout_marginTop="32dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:textAlignment="center"
+        android:layout_gravity="center_vertical"
+        android:paddingTop="25dp"
+        android:text="@string/resource1"
+        android:textColor="@color/textwhite"
+        android:textSize="15sp"
+        android:id="@+id/resource1"
+        android:background="@color/b4"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:textStyle="bold"
+        android:paddingTop="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:textAlignment="center"
+        android:layout_gravity="center"
+        android:text="@string/resource2"
+        android:textColor="@color/textwhite"
+        android:textSize="15sp"
+        android:id="@+id/resource2"
+        android:background="@color/b2"/>
+
+    <TextView
+        android:textStyle="bold"
+        android:paddingTop="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:textAlignment="center"
+        android:layout_gravity="center"
+        android:text="@string/resource3"
+        android:textColor="@color/textwhite"
+        android:textSize="15sp"
+        android:id="@+id/resource3"
+        android:background="@color/b1"/>
+
+
+    <TextView
+        android:textStyle="bold"
+        android:paddingTop="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:textAlignment="center"
+        android:layout_gravity="center"
+        android:text="@string/resource4"
+        android:textColor="@color/textwhite"
+        android:textSize="15sp"
+        android:id="@+id/resource4"
+        android:background="@color/b3"/>
+
+</LinearLayout>

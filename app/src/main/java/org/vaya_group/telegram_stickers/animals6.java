@@ -24,8 +24,7 @@ public class animals6 extends AppCompatActivity {
 
         String imageUrl = "http://www.stickers-telegram.com/wp-content/uploads/2016/03/Round-and-Pretty-Cat.png";
         ///___ displaying image from url using PICASSO____////
-        Picasso.with(getApplicationContext()).load(imageUrl).into(stickerImage);
-        ////_____HesamSameni____/////
+        Picasso.with(getApplicationContext()).load(imageUrl).placeholder(R.drawable.placeholder).into(stickerImage);
     }
 
 

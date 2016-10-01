@@ -24,7 +24,7 @@ public class cartoons11 extends AppCompatActivity {
 
         String imageUrl = "http://telegramhub.net/wp-content/uploads/2016/05/the-little-mermaid.jpg";
         ///___ displaying image from url using PICASSO____////
-        Picasso.with(getApplicationContext()).load(imageUrl).into(stickerImage);
+        Picasso.with(getApplicationContext()).load(imageUrl).placeholder(R.drawable.placeholder).into(stickerImage);
         ////_____HesamSameni____/////
     }
 

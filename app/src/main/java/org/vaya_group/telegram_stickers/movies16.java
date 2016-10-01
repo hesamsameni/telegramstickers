@@ -26,7 +26,7 @@ public class movies16 extends AppCompatActivity {
 
         String imageUrl = "http://www.stickers-telegram.com/wp-content/uploads/2016/07/Mad-Max-Fury-Road.jpg";
         ///___ displaying image from url using PICASSO____////
-        Picasso.with(getApplicationContext()).load(imageUrl).into(stickerImage);
+        Picasso.with(getApplicationContext()).load(imageUrl).placeholder(R.drawable.placeholder).into(stickerImage);
         ////_____HesamSameni____/////
     }
 

@@ -26,7 +26,7 @@ public class love5 extends AppCompatActivity {
 
         String imageUrl = "http://1001download.com/wp-content/uploads/2015/10/22.jpg";
         ///___ displaying image from url using PICASSO____////
-        Picasso.with(getApplicationContext()).load(imageUrl).into(stickerImage);
+        Picasso.with(getApplicationContext()).load(imageUrl).placeholder(R.drawable.placeholder).into(stickerImage);
         ////_____HesamSameni____/////
     }
 
